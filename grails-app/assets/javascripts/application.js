@@ -10,8 +10,8 @@
 //= require_self
 //= require angular.min
 //= require angular-route
-
-if (typeof jQuery !== 'undefined') {
+//= require angular-resource
+if (typeof jQuery !== 'undefined'){
 	(function($) {
 		$(document).ajaxStart(function(){
 			$('#spinner').fadeIn();
